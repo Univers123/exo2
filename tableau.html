@@ -7,8 +7,9 @@
     <title>Document</title>
 </head>
 <body>  
-        <div id="tableau"> 
-            </div>
+        <div id="tableau"> </div>
+            
+        
     <script>
         var tab = [56,78,34,32,22,11,23];
         let tableau = document.getElementById("tableau");
@@ -17,13 +18,14 @@
            if(tab[i]>35){
             console.log(tab[i])
 
-           content += tab[i]
-           
+           content += tab[i] +"<br>"           
            }
             document.getElementById("tableau").innerHTML = content;          
         }
         
     </script>
+
+
     
     
     
